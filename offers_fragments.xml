@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+   >
+</LinearLayout>
+    <!--<android.support.design.widget.AppBarLayout-->
+        <!--android:id="@+id/appbar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:theme="@style/AppTheme.AppBarOverlay">-->
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="horizontal">-->
+            <!--<LinearLayout-->
+
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="0.5"-->
+                <!--android:gravity="left|center_vertical"-->
+                <!--android:orientation="horizontal">-->
+
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:background="#FFFFFF"-->
+                <!--android:paddingBottom="25dp"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:gravity="center"-->
+                    <!--android:orientation="vertical">-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/txt_list"-->
+                        <!--android:layout_width="69dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginLeft="10dp"-->
+                        <!--android:layout_marginTop="20dp"-->
+                        <!--android:text="@string/listing"-->
+                        <!--android:textColor="@color/grey" />-->
+
+                <!--</LinearLayout>-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:gravity="center"-->
+                    <!--android:orientation="vertical">-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/txt_offers"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginLeft="10dp"-->
+                        <!--android:layout_marginRight="10dp"-->
+                        <!--android:layout_marginTop="20dp"-->
+                        <!--android:text="@string/offers"-->
+                        <!--android:textColor="#1e88e5" />-->
+
+                <!--</LinearLayout>-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:gravity="center"-->
+                    <!--android:orientation="vertical">-->
+
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/txt_post"-->
+                        <!--android:layout_width="65dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginLeft="10dp"-->
+                        <!--android:layout_marginRight="10dp"-->
+                        <!--android:layout_marginTop="20dp"-->
+                        <!--android:text="@string/post_ad"-->
+                        <!--android:textColor="#616161"-->
+
+                        <!--/>-->
+
+                <!--</LinearLayout>-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:gravity="center"-->
+                    <!--android:orientation="vertical">-->
+
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/txt_msg"-->
+                        <!--android:layout_width="81dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginLeft="10dp"-->
+                        <!--android:layout_marginRight="10dp"-->
+                        <!--android:layout_marginTop="20dp"-->
+                        <!--android:text="@string/messages"-->
+                        <!--android:textColor="#616161" />-->
+                <!--</LinearLayout>-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:gravity="center"-->
+                    <!--android:orientation="vertical">-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/txt_more"-->
+                        <!--android:layout_width="60dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginLeft="18dp"-->
+                        <!--android:layout_marginTop="20dp"-->
+                        <!--android:text="@string/more"-->
+                        <!--android:textColor="#616161" />-->
+                <!--</LinearLayout>-->
+            <!--</LinearLayout>-->
+        <!--</LinearLayout>-->
+        <!--<FrameLayout-->
+            <!--android:id="@+id/frmelayout"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent" />-->
+
+    <!--</android.support.design.widget.AppBarLayout>-->
+    <!--&lt;!&ndash;<RelativeLayout&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/relative"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_alignParentTop="true"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_centerHorizontal="true"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_marginTop="10dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;&gt;&ndash;&gt;-->
+
+        <!--&lt;!&ndash;<Button&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/notif"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="191dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="32dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_alignParentEnd="true"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_alignParentTop="true"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_marginRight="10dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:background="@drawable/buttonborder"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:text="@string/notifications"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:textColor="@color/darkblue" />&ndash;&gt;-->
+
+        <!--&lt;!&ndash;<Button&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/Ads"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="182dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="32dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_alignParentStart="true"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_alignParentTop="true"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_marginStart="20dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:background="@color/Blue"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:textColor="@color/white"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:text="@string/commercial_ads"&ndash;&gt;-->
+            <!--&lt;!&ndash;/>&ndash;&gt;-->
+    <!--&lt;!&ndash;</RelativeLayout>&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<LinearLayout&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="fill_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="fill_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:orientation="vertical"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/layout"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_marginTop="10dp">&ndash;&gt;-->
+        <!--&lt;!&ndash;<HorizontalScrollView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/scroll"&ndash;&gt;-->
+            <!--&lt;!&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;<LinearLayout&ndash;&gt;-->
+                <!--&lt;!&ndash;android:orientation="horizontal"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:id="@+id/linear"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="wrap_content">&ndash;&gt;-->
+
+                <!--&lt;!&ndash;<Button&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:id="@+id/btn_all"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_width="65dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_height="33dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_marginLeft="5dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_marginRight="5dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:textColor="@color/white"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:background="@color/Blue"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_marginBottom="10dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:text="@string/all"&ndash;&gt;-->
+                    <!--&lt;!&ndash;/>&ndash;&gt;-->
+                <!--&lt;!&ndash;<Button&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:id="@+id/btn_prop"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_width="77dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_height="33dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:text="@string/property"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_marginRight="5dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_marginBottom="10dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:background="@drawable/buttonstyle"/>&ndash;&gt;-->
+                <!--&lt;!&ndash;<Button&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:id="@+id/btn_motors"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_width="77dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_height="33dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:text="@string/motors"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_marginBottom="10dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_marginRight="5dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:background="@drawable/buttonstyle"/>&ndash;&gt;-->
+
+                <!--&lt;!&ndash;<Button&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:id="@+id/btn_elect"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_width="103dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_height="33dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_marginRight="5dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:background="@drawable/buttonstyle"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_marginBottom="10dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:text="@string/electronics" />&ndash;&gt;-->
+                <!--&lt;!&ndash;<Button&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:id="@+id/btn_general"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_width="243dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_height="33dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_marginRight="5dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_marginLeft="5dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_marginBottom="10dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:background="@drawable/buttonstyle"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:text="@string/general_contracting_amp_crafts"&ndash;&gt;-->
+                    <!--&lt;!&ndash;/>&ndash;&gt;-->
+                <!--&lt;!&ndash;<Button&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:id="@+id/btn_satellite"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_height="31dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_marginRight="5dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_marginBottom="10dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:background="@drawable/buttonstyle"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:text="@string/satellite" />&ndash;&gt;-->
+                <!--&lt;!&ndash;<Button&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:id="@+id/btn_move"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_width="98dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_height="31dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_marginRight="5dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_marginBottom="10dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:background="@drawable/buttonstyle"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:text="@string/pack_amp_move"/>&ndash;&gt;-->
+                <!--&lt;!&ndash;<Button&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:id="@+id/btn_painter"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_width="77dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_height="31dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_marginRight="5dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_marginBottom="10dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:background="@drawable/buttonstyle"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:text="@string/painter" />&ndash;&gt;-->
+                <!--&lt;!&ndash;<Button&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:id="@+id/btn_bugs"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_width="215dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_height="33dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_marginRight="5dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:background="@drawable/buttonstyle"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_marginBottom="10dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:text="@string/bugs_exterminator_service" />&ndash;&gt;-->
+                <!--&lt;!&ndash;<Button&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:id="@+id/btn_rest"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_width="116dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_height="33dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_marginRight="5dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_marginBottom="10dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:background="@drawable/buttonstyle"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:text="@string/restaurants" />&ndash;&gt;-->
+                <!--&lt;!&ndash;<Button&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:id="@+id/btn_health"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_width="116dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_height="33dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_marginBottom="10dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_marginRight="5dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:background="@drawable/buttonstyle"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:text="@string/your_health"/>&ndash;&gt;-->
+                <!--&lt;!&ndash;<Button&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:id="@+id/btn_miscel"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_width="127dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_height="33dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_marginRight="5dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:background="@drawable/buttonstyle"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_marginBottom="10dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:text="@string/miscellaneous" />&ndash;&gt;-->
+                <!--&lt;!&ndash;<Button&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:id="@+id/btn_sale"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_height="33dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_marginLeft="5dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_marginRight="5dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_marginBottom="10dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:background="@drawable/buttonstyle"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:text="@string/_4sale"/>&ndash;&gt;-->
+            <!--&lt;!&ndash;</LinearLayout>&ndash;&gt;-->
+        <!--&lt;!&ndash;</HorizontalScrollView>&ndash;&gt;-->
+
+        <!--&lt;!&ndash;<android.support.v7.widget.RecyclerView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/recycler"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_marginTop="10dp"/>&ndash;&gt;-->
+
+    <!--&lt;!&ndash;</LinearLayout>&ndash;&gt;-->
+<!--</LinearLayout>-->

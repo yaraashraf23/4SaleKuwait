@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+   >
+    <Button
+    android:id="@+id/notif"
+    android:layout_width="191dp"
+    android:layout_height="32dp"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginRight="10dp"
+    android:background="@drawable/buttonborder"
+    android:text="@string/notifications"
+    android:textColor="@color/darkblue" />
+
+    <Button
+    android:id="@+id/Ads"
+    android:layout_width="182dp"
+    android:layout_height="32dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginStart="20dp"
+    android:background="@color/Blue"
+    android:textColor="@color/white"
+    android:text="@string/commercial_ads"/>
+
+    <LinearLayout
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/layout"
+    android:layout_marginTop="40dp">
+
+    <HorizontalScrollView
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:id="@+id/scroll"
+    >
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:id="@+id/linear"
+    android:layout_width="wrap_content">
+
+    <Button
+    android:id="@+id/btn_all"
+    android:layout_width="65dp"
+    android:layout_height="33dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:textColor="@color/white"
+    android:background="@color/Blue"
+    android:layout_marginBottom="10dp"
+    android:text="@string/all"
+    />
+    <Button
+    android:id="@+id/btn_prop"
+    android:layout_width="77dp"
+    android:layout_height="33dp"
+    android:text="@string/property"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/buttonstyle"/>
+    <Button
+    android:id="@+id/btn_motors"
+    android:layout_width="77dp"
+    android:layout_height="33dp"
+    android:text="@string/motors"
+    android:layout_marginBottom="10dp"
+    android:layout_marginRight="5dp"
+    android:background="@drawable/buttonstyle"/>
+
+    <Button
+    android:id="@+id/btn_elect"
+    android:layout_width="103dp"
+    android:layout_height="33dp"
+    android:layout_marginRight="5dp"
+    android:background="@drawable/buttonstyle"
+    android:layout_marginBottom="10dp"
+    android:text="@string/electronics" />
+    <Button
+    android:id="@+id/btn_general"
+    android:layout_width="243dp"
+    android:layout_height="33dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/buttonstyle"
+    android:text="@string/general_contracting_amp_crafts"
+    />
+    <Button
+    android:id="@+id/btn_satellite"
+    android:layout_width="wrap_content"
+    android:layout_height="31dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/buttonstyle"
+    android:text="@string/satellite" />
+    <Button
+    android:id="@+id/btn_move"
+    android:layout_width="98dp"
+    android:layout_height="31dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/buttonstyle"
+    android:text="@string/pack_amp_move"/>
+    <Button
+    android:id="@+id/btn_painter"
+    android:layout_width="77dp"
+    android:layout_height="31dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/buttonstyle"
+    android:text="@string/painter" />
+    <Button
+    android:id="@+id/btn_bugs"
+    android:layout_width="215dp"
+    android:layout_height="33dp"
+    android:layout_marginRight="5dp"
+    android:background="@drawable/buttonstyle"
+    android:layout_marginBottom="10dp"
+    android:text="@string/bugs_exterminator_service" />
+    <Button
+    android:id="@+id/btn_rest"
+    android:layout_width="116dp"
+    android:layout_height="33dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/buttonstyle"
+    android:text="@string/restaurants" />
+    <Button
+    android:id="@+id/btn_health"
+    android:layout_width="116dp"
+    android:layout_height="33dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginRight="5dp"
+    android:background="@drawable/buttonstyle"
+    android:text="@string/your_health"/>
+    <Button
+    android:id="@+id/btn_miscel"
+    android:layout_width="127dp"
+    android:layout_height="33dp"
+    android:layout_marginRight="5dp"
+    android:background="@drawable/buttonstyle"
+    android:layout_marginBottom="10dp"
+    android:text="@string/miscellaneous" />
+    <Button
+    android:id="@+id/btn_sale"
+    android:layout_width="wrap_content"
+    android:layout_height="33dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/buttonstyle"
+    android:text="@string/_4sale"/>
+    </LinearLayout>
+    </HorizontalScrollView>
+
+        <GridView
+            android:id="@+id/GridView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:columnWidth="0dp"
+            android:numColumns="2"/>
+        <FrameLayout
+            android:id="@+id/frmelayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddContact"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/txt_add_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/alternative_numbers"
+        android:textColor="@color/Black"
+        android:textSize="18dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="43dp"
+        android:background="@color/viewcolor" />
+
+    <ImageView
+        android:id="@+id/image_addcontact"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="7dp"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/contacticon" />
+
+    <TextView
+        android:id="@+id/text_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="52dp"
+        android:layout_marginRight="7dp"
+        android:text="@string/_20"
+        android:textColor="@color/Blue"
+        android:textSize="17dp"
+        android:layout_marginLeft="7dp"/>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="36dp"
+        android:layout_alignTop="@+id/text_num"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="-5dp"
+        android:layout_toEndOf="@+id/text_num"
+        android:background="@color/viewcolor" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentStart="true"
+       android:layout_marginTop="90dp"
+        android:background="@color/Blue" />
+
+    <EditText
+        android:id="@+id/edt_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="40dp"
+        android:background="@null"
+        android:hint="@string/phone_number"
+        android:ems="10"
+        android:textCursorDrawable="@color/Black"
+        android:inputType="number" />
+
+    <ImageView
+        android:id="@+id/image_add_number"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/image_addcontact"
+        android:layout_alignTop="@+id/text_num"
+        app:srcCompat="@drawable/plusicon" />
+    <FrameLayout
+        android:id="@+id/frame_Layoutt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>

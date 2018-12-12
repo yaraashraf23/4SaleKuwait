@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".SupportActivity">
+
+    <Button
+        android:id="@+id/btn_faqs"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/buttonborder"
+        android:backgroundTint="@color/Blue"
+        android:text="@string/faqs"
+        android:textColor="@color/white" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginTop="135dp"
+            android:background="@color/viewcolor"
+            android:ems="10"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="5dp"
+            android:textCursorDrawable="@color/Blue" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="155dp"
+        android:layout_height="2dp"
+        android:layout_alignBottom="@+id/orText"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="14dp"
+        android:background="@color/viewcolor" />
+
+    <TextView
+    android:id="@+id/orText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="100dp"
+    android:text="or"
+    android:textColor="@color/Blue"
+    android:textSize="18dp" />
+
+    <View
+    android:layout_width="164dp"
+    android:layout_height="2dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="110dp"
+    android:background="@color/viewcolor" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:paddingLeft="4.0dip"
+        android:paddingTop="5.0dip"
+        android:paddingRight="4.0dip"
+        android:paddingBottom="1.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       android:layout_marginTop="200dp">
+
+        <Button
+            android:id="@+id/btn_ticketa"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:text="@string/create_tickets"
+            android:backgroundTint="@color/Blue"
+            android:textColor="@color/white"
+            android:layout_weight="1.0" />
+
+        <Button
+            android:id="@+id/btn_create"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:text="@string/mytickets"
+            android:backgroundTint="@color/Blue"
+            android:textColor="@color/white"
+            android:layout_weight="1.0" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/viewone"
+        android:layout_width="171dp"
+        android:layout_height="2dp"
+        android:layout_alignEnd="@+id/btn_faqs"
+        android:layout_alignTop="@+id/viewtwo"
+        android:background="@color/viewcolor" />
+
+    <TextView
+        android:id="@+id/orTexttwo"
+        android:layout_width="31dp"
+        android:layout_height="wrap_content"
+       android:layout_marginTop="260dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-280dp"
+        android:paddingLeft="7dp"
+        android:text="or"
+        android:textColor="@color/Blue"
+        android:textSize="18dp"
+        tools:ignore="NotSibling" />
+
+    <View
+        android:id="@+id/viewtwo"
+        android:layout_width="172dp"
+        android:layout_height="2dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/txt_add_contact"
+        android:layout_marginStart="-20dp"
+        android:layout_marginTop="270dp"
+        android:background="@color/viewcolor" />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+       android:layout_marginTop="290dp"
+        android:layout_width="fill_parent"
+        android:background="@color/white"
+        android:layout_height="wrap_content"
+     >
+
+        <Button
+            android:id="@+id/livesupport"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:text="Live Support"
+            android:backgroundTint="@color/Blue"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/callus"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:text="Call us"
+            android:layout_marginRight="7dp"
+           android:backgroundTint="@color/Blue"
+            android:textColor="@color/white"
+            android:layout_weight="1.0" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_support"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="21dp"
+        android:text="Support"
+        android:layout_marginTop="7dp"
+        android:textColor="@color/Black"
+        android:textSize="18dp"/>
+    <View
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    android:layout_marginTop="39dp"
+    android:background="@color/viewcolor"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp">
+
+        <TextView
+            android:id="@+id/text_details"
+            android:layout_width="wrap_content"
+            android:layout_height="77dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="170dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/our_office_hours_are_sunday_to_thursday_9am_12am_friday_5pm_9pm_saturday_9am_8pm"
+            android:textColor="@color/Red"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
+
