@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     android:layout_marginTop="10dp"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
@@ -161,14 +161,18 @@
     android:text="@string/_4sale"/>
     </LinearLayout>
     </HorizontalScrollView>
-
-        <GridView
-            android:id="@+id/GridView"
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerview"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:columnWidth="0dp"
-            android:numColumns="2"/>
+            android:layout_height="match_parent"
+            android:scrollbars="vertical" />
+        <!--<GridView-->
+            <!--android:id="@+id/GridView"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:columnWidth="0dp"-->
+            <!--android:numColumns="2"/>-->
         <FrameLayout
             android:id="@+id/frmelayout"
             android:layout_width="match_parent"
